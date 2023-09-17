@@ -1,0 +1,15 @@
+\beamer@sectionintoc {1}{Introduction}{3}{0}{1}
+\beamer@sectionintoc {2}{What is a deep feedforward network?}{5}{0}{2}
+\beamer@sectionintoc {3}{Gradient Based Learning}{19}{0}{3}
+\beamer@subsectionintoc {3}{1}{Cost Functions}{21}{0}{3}
+\beamer@subsectionintoc {3}{2}{Output Units}{24}{0}{3}
+\beamer@sectionintoc {4}{Hidden Units}{25}{0}{4}
+\beamer@subsectionintoc {4}{1}{Rectified Linear Units}{28}{0}{4}
+\beamer@subsectionintoc {4}{2}{Logistic Sigmoid and Hyperbolic Tangent}{30}{0}{4}
+\beamer@sectionintoc {5}{Architecture Design}{32}{0}{5}
+\beamer@sectionintoc {6}{Back-Propagation}{37}{0}{6}
+\beamer@subsectionintoc {6}{1}{Computational Graphs}{39}{0}{6}
+\beamer@subsectionintoc {6}{2}{Chain Rule of Calculus}{41}{0}{6}
+\beamer@subsectionintoc {6}{3}{Back-propagation Computation}{43}{0}{6}
+\beamer@sectionintoc {7}{Historical Notes}{44}{0}{7}
+\beamer@sectionintoc {8}{Code demo}{51}{0}{8}
