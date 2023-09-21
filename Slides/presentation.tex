@@ -18,7 +18,7 @@
 
 %                          Information for the Title Page
 %
-\title[Backpropagation and training neural networks]{
+\title[Backpropagation and training NN]{
 	\Large Deep Feedforward Networks~\cite{Goodfellow-et-al-2016} \\
 	[5mm] \normalsize Sarntal Ferienakademie -- Course 10 \\
 	Computational Medical Imaging
@@ -60,6 +60,7 @@
 	\begin{itemize}
 		\item Solve tasks that are easy for people to perform but hard for people to describe formally 
 		\item problems that we solve intuitively, like recognizing spoken words or faces in images.
+			\pause
 		\item Goal: allow computers to learn from experience and understand the world in terms of a hierarchy of concepts
 		\item a graph showing how these concepts are built $\rightarrow$ a deep graph $\rightarrow$ deep Learning
 		\item the ability to acquire knowledge, by extracting patterns from raw data
@@ -73,9 +74,12 @@
 \begin{itemize}
 	\item Deep feedforward network = feedforward neural netwrok = multilayer perceptrons (MLPs)
 	\item essential deep learning model
-	\item Goal: approximate some function $f\ast$
-	\item for example: for a classifier $y = f*(x) \rightarrow$ approxiamte it with $y = f(x;\theta)$
+		\pause
+	\item Goal: approximate some function $f^{\ast}$
+	\item for example: for a classifier $y = f^{*}(x) \rightarrow$ approxiamte it with $y = f(x;\theta)$
+		\pause
 	\item feedfoward? $x \rightarrow$ intermidiate computations $\rightarrow $ output y
+		\pause
 	\item networks? represented by composing together many different functions
 	\item The model is a directed acyclic graph: how the functions are compoded together, layers, depth, width, hidden layers, units
 \end{itemize}
@@ -94,6 +98,7 @@
 	\begin{itemize}
 		\item a linear approach used to fit a predective model to an observed data set
 		\item error reduction in prediction
+			\pause
 		\item often fitted using the least squares approach
 	\end{itemize}
 	\center 
@@ -104,10 +109,12 @@
 	\center
 	\includegraphics[width= 30mm , height = 30mm]{xor_tabel.png}
 	\begin{itemize}
-		\item The XOR function provides the target function $y = f\ast(x)$that we want to learn.
-		\item Our model provides a function $y = f(x \; \theta)$ and
+		\item The XOR function provides the target function $y = f^{\ast}(x)$that we want to learn.
+			\pause
+		\item Our model provides a function $y = f(x ; \theta)$ and
 our learning algorithm will adapt the parameters $\theta $ to make
-$f$ as similar as possible to $f\ast$
+			$f$ as similar as possible to $f^{\ast}$
+\pause
 \item Train the model on the four points $\mathbf{X}= \{ [0,0]^T , [0,1]^T , [1,0]^T, [1,1]^T  \}$	
 	\end{itemize}
 \end{frame}
@@ -115,11 +122,14 @@ $f$ as similar as possible to $f\ast$
 	\frametitle{First choice: Linear Model}
 	\begin{itemize}
 \item Treat the problem as a regression problem and use a mean squared error loss function $$ J(\theta) = \frac{1}{4} \sum_{x \in X}{(f\ast(x) - f(x; \theta))^2}$$
+	\pause
 		\item we chose a linear model: $$ f(x, w, b) = x^Tw + b$$
-		\item we minimize $(\theta)$ with respect to $w$ and $b$ 
+		\pause
+		\item we minimize $(\theta)$ with respect to $w$ and $b$
 		\item $\rightarrow$ we obtain $w = 0$ and $b= 0.5$ 
 		\item the linear model simply outputs 0.5 everywhere
 	\end{itemize}
+	\pause
 	\center 
 	Why does this happen?	
 \end{frame}
@@ -141,13 +151,16 @@ $f$ as similar as possible to $f\ast$
 		\item the network now contains two function chained together
 			$$ h= f^{(1)}(x, W, c)$$ and $$ y = f^{(2)}(h, w, b)$$
 	\end{itemize}
+	\pause
 	\center 
 	What function should $f^{(1)}$ compute? Can it be linear?
 \end{frame}
 \begin{frame}
 \begin{itemize}
 	\item No, the feedforward netwrok as whole would remain a linear function of its input
+		\pause
 	\item $\rightarrow$ we use an affine transformation controlled by learned parameters, followed by a fixed nonlinear function called activation function $$h= g(W^Tx + b)$$
+		\pause
 	\item $W$: provides the weights of a linear transformation
 	\item $b$: provides the biases
 \end{itemize}
@@ -161,6 +174,7 @@ $f$ as similar as possible to $f\ast$
 	\frametitle{Solving XOR}
 	\begin{itemize}
 		\item The complete Newtork: $f(x, W, c, w, b) = w^Tmax\{0,W^Tx + c\} + b$
+			\pause
 		\item We can specify a solution:
 			$$ W = \begin{bmatrix} 1 & 1\\
 						1 & 1
@@ -171,6 +185,7 @@ $f$ as similar as possible to $f\ast$
 1\\
 -2
 \end{bmatrix}, b = 0$$
+\pause
 \item $\mathbf{X}$ the design matrix containing all four inputs with one example per Column: $\mathbf{X} = \begin{bmatrix}
 		0 & 1 & 0 & 1\\
 	0 & 0 & 1 & 1 \\
@@ -185,18 +200,20 @@ $f$ as similar as possible to $f\ast$
 				\end{bmatrix} .   \begin{bmatrix}
 		0 & 1 & 0 & 1\\
 	0 & 0 & 1 & 1 \\
-\end{bmatrix} + c = \begin{bmatrix}
+\end{bmatrix} + \begin{bmatrix}
 0\\
 -1 
 \end{bmatrix} =  \begin{bmatrix}
 		0 & 1 & 1 & 2\\
 	-1 & 0 & 0 & 1 \\
 \end{bmatrix} $
+\pause
 \item Activations of the first layer: the rectified Linear Transformations:
 	$$ max\{0,W^TX + c\} =\begin{bmatrix}
 		0 & 1 & 1 & 2\\
 	0 & 0 & 0 & 1 \\
 \end{bmatrix}  $$
+\pause
 \item Activations of the second layer (output): 
 	$$  w^Tmax\{0,W^Tx + c\} + b = \begin{bmatrix}
 		1 & -2\\
@@ -219,12 +236,12 @@ $f$ as similar as possible to $f\ast$
 
 \section{Gradient Based Learning}
 \begin{frame}
+	\frametitle{Gradient Based Learning:}
 \begin{itemize}
-	\item The nonlinearity of a neural network causes most interesting loss functions to become nonconvex
+	\item Recap on Gradient Descent
+		\pause
 	\item For feedforward neural networks, it is important to
 initialize all weights to small random values. 
-\item we will describe how to obtain the gradient using the back-propagation
-algorithm and modern generalizations of the back-propagation algorithm
 \item we must choose a cost function, and we must choose how to represent the output of the model
 	
 \end{itemize}
@@ -232,10 +249,13 @@ algorithm and modern generalizations of the back-propagation algorithm
 
 \subsection{Cost Functions}
 \begin{frame}
+	\frametitle{Cost Functions}
 	\begin{itemize}
 		\item An important aspect of the design of a deep neural network is the choice of the cost function
+			\pause
 		\item In general, the model defines a distribution $p(y|x;\theta)$ and we use the principle of maximum likelihood
 		\item $\rightarrow$ The cross-entropy between the training data and the model's predictions as the cost function.
+			\pause
 		\item The total cost function combines a cost function with a regularization term
 	\end{itemize}
 \end{frame}
@@ -244,9 +264,8 @@ algorithm and modern generalizations of the back-propagation algorithm
 	\begin{itemize}
 		\item the cost function is simply the negative log-likelihood, equivalently described as the cross-entropy between the training data and the model distribution.
 			$$ J(\theta)= -\mathbb{E}_{x,y\sim \hat{p}_{data}\log p_{model}}(y|x)$$
+			\pause
 		\item used to evaluate the performance of a model's predicted probability distribution against the true distribution of the data
-		\item In the context of binary classification, where $y$ is the true probablity and $\hat{y}$ the predicted probability:
-			$$ J = -(y\log \hat{y} + (1-y) \log (1- \hat{y}))$$
 	\end{itemize}	
 \end{frame}
 \begin{frame}
@@ -254,11 +273,10 @@ algorithm and modern generalizations of the back-propagation algorithm
 	\begin{itemize}
 \item In the context of binary classification, where $y$ is the true probablity and $\hat{y}$ the predicted probability:
 			$$ J = -(y\log \hat{y} + (1-y) \log (1- \hat{y}))$$
+			\pause
 		\item $y = 1 \rightarrow J =-(y\log \hat{y}) \rightarrow \hat{y}$ large, closer to 1
+			\pause
 		\item $y = 0 \rightarrow J =-\log (1-\hat{y}) \rightarrow 1- \hat{y}$ large, $\hat{y}$ closer to 0
-
-
-
 		
 	\end{itemize}
 	
@@ -266,6 +284,7 @@ algorithm and modern generalizations of the back-propagation algorithm
 
 \subsection{Output Units}
 \begin{frame}
+	\frametitle{Output Units}
 	\begin{itemize}
 		\item The choice of cost function is tightly coupled with the choice of output unit
 		\item The choice of how to represent the output then determines the form of the cross-entropy function
@@ -273,24 +292,23 @@ algorithm and modern generalizations of the back-propagation algorithm
 			$$ \hat{y}= W^Th + b $$
 		\item Sigmoid Units: 
 			$$\hat{y}=\sigma (w^Th+b) $$
-		\item Softmax Units:
 		
 	\end{itemize}
 \end{frame}
 
 \section{Hidden Units}
 \begin{frame}
+	\frametitle{Hidden Units}
 	\begin{itemize}
-		\item So far, design choices for neural networks that are common to most parametric machine learning models trained with gradient-based optimization
-		\item Now: how to choose the type of hidden unit to use in the hidden layers of the model
+		\item Now: how to choose the type of hidden unit to use in the hidden layers of the model?
+			\pause
 		\item  extremely active area of research and does not
 yet have many deﬁnitive guiding theoretical principles
+\pause
 \item Rectiﬁed linear units are an excellent default choice of hidden unit
-\item It can be diﬃcult to determine when to use which kind
-\item The design process consists of trial and error
-\item Some of the hidden units included in this list are not actually diﬀerentiable at all input points
-\item Hidden units that are not diﬀerentiable are usually nondiﬀerentiable at only a small number of points.
-\item in practice one can safely disregard the nondiﬀerentiability of the hidden unit activation functions described below
+	\pause
+\item Some of the hidden units included are not actually diﬀerentiable at all input points
+\item "in practice one can safely disregard the nondiﬀerentiability of the hidden unit activation functions described below" 
 	\end{itemize}
 \end{frame}
 \begin{frame}
@@ -299,6 +317,8 @@ yet have many deﬁnitive guiding theoretical principles
 		\item accept a vector of inputs $x$
 		\item compute an affine transformation: $z = W^Tx + b$
 	\end{itemize}
+	\center
+	\includegraphics[width = 70mm, height= 60mm]{single_neuron.png}
 	
 \end{frame}
 \subsection{Rectified Linear Units}
@@ -333,7 +353,7 @@ or the hyperbolic tangent activation function
 \begin{frame}
 \begin{figure}[ht]
   \subcaptionbox{Logistic Sigmoid}[.50\linewidth]{%
-    \includegraphics[width=\linewidth]{sigmoid.png}%
+    \includegraphics[width=\linewidth]{sigmoid.png}%putting
   }%
   \hfill
   \subcaptionbox{Hyperbolic Tangent}[.50\linewidth]{%
@@ -353,11 +373,14 @@ or the hyperbolic tangent activation function
 	\frametitle{What do we mean with architecture?}
 	\begin{itemize}
 		\item Architecture: the overall structure of the network: how many units it should have and how these units should be connected to each other
+			\pause
 		\item Most neural network architectures arrange layers in a chain structure, with each layer being a function of the layer that preceded it
+			\pause
 		\item The first layer is given by : 
 			$$ h^{(1)} = g^{(1)}(W^{(1)T}x + b^{(1)})$$
 		\item The second layer: 
 			$$ h^{(2)} = g^{(2)}(W^{(2)T}x + b^{(2)})$$
+			\pause
 		\item the main architectural considerations are choosing the depth of the network and the width of each layer
 	\end{itemize}
 \end{frame}
@@ -366,8 +389,10 @@ or the hyperbolic tangent activation function
 	\begin{itemize}
 		\item One hidden layer is enough to represent an approximation of any function to an arbitrary degree of accuracy
 	\end{itemize}
+	\pause
 	\center 
 	So why deeper Networks?
+	\pause
 	\begin{itemize}
 		\item Shallow Network may need (exponentially) more width
 		\item Shallow Network may overfit more
@@ -388,11 +413,14 @@ or the hyperbolic tangent activation function
 
 \subsection{Computational Graphs}
 \begin{frame}
+	\frametitle{Computational Graphs:}
 	\begin{itemize}
 		\item To describe the back-propagation Algorithm more precisely $\rightarrow$ a more precise computational Graph language
+		\pause
 		\item each node indicates a variable(scalar, vector, matrix, tensor ...)
 		\item Operation: a simple function of one or more variables
 		\item a directed edge from x to y: y is computed by applying an operation to a variable x
+			\pause 
 		\item $\rightarrow$ just a way of expressing and evaluating a mathematical expression
 	\end{itemize}
 \end{frame}
@@ -408,9 +436,12 @@ or the hyperbolic tangent activation function
 	\frametitle{Chain Rule of Calculus}
 \begin{itemize}
 	\item used to compute the derivatives of functions formed by composing other functions
+		\pause
 	\item Back-propagation is an algorithm that computes the chain rule, with a speciﬁc order of operations that is highly eﬃcient
+		\pause
 	\item Suppose that $y = g(x)$ and $z= f(g(x)) = f(y)$ then the chain rule states that: 
 		$$ \frac{dz}{dx} = \frac{dz}{dy} \frac{dy}{dx}$$
+		\pause
 	\item we can generalize this: $ x \in \mathbb{R}^m , y \in \mathbb{R}^n$ $g$ maps from $\mathbb{R}^m$ to $\mathbb{R}^n$ and $f$ from $\mathbb{R}^n$ to $\mathbb{R}$ then: 
 		$$\nabla_{x}z = (\frac{\partial y}{\partial x})^T \nabla_{y}z $$
 	\item $\frac{\partial y}{\partial x}$ is the $n \times m$ Jacobian matrix of $g$
@@ -421,6 +452,7 @@ or the hyperbolic tangent activation function
 	\begin{itemize}
 		\item Back-propagation is the chain rule of calculus recursively applied to compute gradients of expressions 
 		\item It is a particular implementation of the chain rule
+			\pause
 		\item uses dynamic programming (table filling) $\rightarrow$ to avoid recomputing repeated subexpressions
 		\item Speed vs memory tradeoff
 		
@@ -468,7 +500,6 @@ descent was introduced as a technique for iteratively approximating the solution
 to optimization problems in the nineteenth century (Cauchy, 1847).
 	\end{itemize}
 \end{frame}
-
 \begin{frame}[t]
 	\frametitle{A little History}
 \begin{chronology}[50]{1676}{2023}{60ex}[\textwidth]
@@ -485,7 +516,7 @@ to optimization problems in the nineteenth century (Cauchy, 1847).
 \end{chronology}
 	\vspace{0.5cm}
 	\begin{itemize}
-		\item the ﬁrst successful experiments with back-propagation
+		\item the ﬁrst successful experiments with back-propagation presented on the book Parallel Distributed Processing on 1986
 	\end{itemize}
 \end{frame}
 \begin{frame}\frametitle{A little History}
@@ -502,10 +533,13 @@ network performance from 1986 to 2015 can be attributed to the following factors
 	\frametitle{Why is Deep Learning taking off?}
 	\begin{itemize}
 		\item larger dataset
+			\pause
 		\item neural networks have become much larger,
 because of more powerful computers and better software infrastructure
+\pause
 \item some algorithmic changes have also improved the performance of neural
 networks noticeably
+\pause
 \item  the replacement of mean squared error
 with the cross-entropy family of loss functions		
 	\item the replacement of sigmoid hidden units with piecewise
@@ -518,7 +552,7 @@ linear hidden units, such as rectiﬁed linear units
 \begin{frame}
 	\frametitle{Code demo}
 \center 
-Puting it together: Planar Data Classification
+Putting it together: Planar Data Classification
 \end{frame}
 
 \begin{frame}

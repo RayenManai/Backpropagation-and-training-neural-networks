@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.8.8)  17 SEP 2023 08:48
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.8.8)  21 SEP 2023 10:39
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -997,10 +997,6 @@ Dictionary: translator-theorem-dictionary, Language: English
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
  (./presentation.nav)
-Overfull \hbox (1.10065pt too wide) in paragraph at lines 46--46
- [][][][]  
- []
-
 <media//FAU_TechFak_Q_RGB_black.png, id=87, 1461.90166pt x 283.65974pt>
 File: media//FAU_TechFak_Q_RGB_black.png Graphic file (type png)
 <use media//FAU_TechFak_Q_RGB_black.png>
@@ -1017,514 +1013,355 @@ File: media//stuttgart_logo.pdf Graphic file (type pdf)
 <use media//stuttgart_logo.pdf>
 Package pdftex.def Info: media//stuttgart_logo.pdf  used on input line 49.
 (pdftex.def)             Requested size: 94.63733pt x 19.91692pt.
-
-Overfull \hbox (1.10065pt too wide) has occurred while \output is active
- [][][][]  
- []
-
-[1
+ [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./media//FAU_TechFak_Q_RGB
-_black.png> <./media//tum_logo.pdf> <./media//stuttgart_logo.pdf>]
-(./presentation.toc)
-Overfull \hbox (1.10065pt too wide) has occurred while \output is active
- [][][][]  
- []
-
-[2
+_black.png> <./media//tum_logo.pdf> <./media//stuttgart_logo.pdf>] (./presentat
+ion.toc) [2
 
 ] (./presentation.toc)
-Overfull \hbox (1.10065pt too wide) has occurred while \output is active
- [][][][]  
- []
-
 [3
 
 ]
-LaTeX Font Info:    Trying to load font information for U+msa on input line 68.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 69.
 
  (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 68.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 69.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Trying to load font information for OT1+mathkerncmss on inp
-ut line 68.
+ut line 69.
 
 (/usr/share/texlive/texmf-dist/tex/latex/sansmathaccent/ot1mathkerncmss.fd
 File: ot1mathkerncmss.fd 2020/01/31 Fontinst v1.933 font definitions for OT1/ma
 thkerncmss.
 )
-Overfull \hbox (1.10065pt too wide) has occurred while \output is active
- [][][][]  
- []
-
 [4
 
-] (./presentation.toc)
-Overfull \hbox (1.10065pt too wide) has occurred while \output is active
- [][][][]  
- []
+] [5
 
-[5
+] (./presentation.toc) [6
 
-]
-Overfull \hbox (1.10065pt too wide) has occurred while \output is active
- [][][][]  
- []
+] [7
 
-[6
+] [8
+
+] [9
+
+] [10
 
 ]
-<media//Neural-Networks-Architecture.png, id=336, 803.0pt x 505.89pt>
+<media//Neural-Networks-Architecture.png, id=447, 803.0pt x 505.89pt>
 File: media//Neural-Networks-Architecture.png Graphic file (type png)
 <use media//Neural-Networks-Architecture.png>
 Package pdftex.def Info: media//Neural-Networks-Architecture.png  used on input
- line 87.
+ line 91.
 (pdftex.def)             Requested size: 284.534pt x 199.17207pt.
-
-Overfull \hbox (1.10065pt too wide) has occurred while \output is active
- [][][][]  
- []
-
-[7
+ [11
 
  <./media//Neural-Networks-Architecture.png>]
-<media//single_neuron.png, id=366, 609.27625pt x 534.99875pt>
+<media//single_neuron.png, id=476, 609.27625pt x 534.99875pt>
 File: media//single_neuron.png Graphic file (type png)
 <use media//single_neuron.png>
-Package pdftex.def Info: media//single_neuron.png  used on input line 91.
+Package pdftex.def Info: media//single_neuron.png  used on input line 95.
 (pdftex.def)             Requested size: 284.53769pt x 199.17094pt.
-
-Overfull \hbox (1.10065pt too wide) has occurred while \output is active
- [][][][]  
- []
-
-[8
+ [12
 
  <./media//single_neuron.png>]
-<media//linear_least_squares.png, id=396, 1027.84pt x 1009.7725pt>
+<media//linear_least_squares.png, id=506, 1027.84pt x 1009.7725pt>
 File: media//linear_least_squares.png Graphic file (type png)
 <use media//linear_least_squares.png>
 Package pdftex.def Info: media//linear_least_squares.png  used on input line 10
-1.
+6.
 (pdftex.def)             Requested size: 227.61543pt x 128.02397pt.
-
-Overfull \hbox (1.10065pt too wide) has occurred while \output is active
- [][][][]  
- []
-
-[9
+ [13
 
  <./media//linear_least_squares.png>]
-<media//xor_tabel.png, id=424, 181.67876pt x 235.88126pt>
+File: media//linear_least_squares.png Graphic file (type png)
+<use media//linear_least_squares.png>
+Package pdftex.def Info: media//linear_least_squares.png  used on input line 10
+6.
+(pdftex.def)             Requested size: 227.61543pt x 128.02397pt.
+ [14
+
+]
+<media//xor_tabel.png, id=562, 181.67876pt x 235.88126pt>
 File: media//xor_tabel.png Graphic file (type png)
 <use media//xor_tabel.png>
-Package pdftex.def Info: media//xor_tabel.png  used on input line 113.
+Package pdftex.def Info: media//xor_tabel.png  used on input line 120.
 (pdftex.def)             Requested size: 85.35852pt x 85.3599pt.
 LaTeX Font Info:    Font shape `OT1/cmss/b/n' in size <10.95> not available
-(Font)              Font shape `OT1/cmss/bx/n' tried instead on input line 113.
+(Font)              Font shape `OT1/cmss/bx/n' tried instead on input line 120.
 
 LaTeX Font Info:    Font shape `OT1/cmss/b/n' in size <8> not available
-(Font)              Font shape `OT1/cmss/bx/n' tried instead on input line 113.
+(Font)              Font shape `OT1/cmss/bx/n' tried instead on input line 120.
 
 LaTeX Font Info:    Font shape `OT1/cmss/b/n' in size <6> not available
-(Font)              Font shape `OT1/cmss/bx/n' tried instead on input line 113.
+(Font)              Font shape `OT1/cmss/bx/n' tried instead on input line 120.
 
-
-Overfull \hbox (1.10065pt too wide) has occurred while \output is active
- [][][][]  
- []
-
-[10
+ [15
 
  <./media//xor_tabel.png>]
-Overfull \hbox (1.10065pt too wide) has occurred while \output is active
- [][][][]  
- []
-
-[11
-
-]
-<media//xor_graph1.png, id=484, 834.11626pt x 698.61pt>
-File: media//xor_graph1.png Graphic file (type png)
-<use media//xor_graph1.png>
-Package pdftex.def Info: media//xor_graph1.png  used on input line 136.
-(pdftex.def)             Requested size: 227.6199pt x 170.71855pt.
-
-Overfull \hbox (1.10065pt too wide) has occurred while \output is active
- [][][][]  
- []
-
-[12
-
- <./media//xor_graph1.png>]
-Overfull \hbox (1.10065pt too wide) has occurred while \output is active
- [][][][]  
- []
-
-[13
+File: media//xor_tabel.png Graphic file (type png)
+<use media//xor_tabel.png>
+Package pdftex.def Info: media//xor_tabel.png  used on input line 120.
+(pdftex.def)             Requested size: 85.35852pt x 85.3599pt.
+ [16
 
 ]
-Overfull \hbox (1.10065pt too wide) has occurred while \output is active
- [][][][]  
- []
+File: media//xor_tabel.png Graphic file (type png)
+<use media//xor_tabel.png>
+Package pdftex.def Info: media//xor_tabel.png  used on input line 120.
+(pdftex.def)             Requested size: 85.35852pt x 85.3599pt.
+ [17
 
-[14
+] [18
 
-]
-<media//xor_nn.png, id=569, 355.3275pt x 210.7875pt>
-File: media//xor_nn.png Graphic file (type png)
-<use media//xor_nn.png>
-Package pdftex.def Info: media//xor_nn.png  used on input line 159.
-(pdftex.def)             Requested size: 170.71791pt x 113.8139pt.
+] [19
 
-Overfull \hbox (1.10065pt too wide) has occurred while \output is active
- [][][][]  
- []
-
-[15
-
- <./media//xor_nn.png>]
-Overfull \hbox (1.10065pt too wide) has occurred while \output is active
- [][][][]  
- []
-
-[16
+] [20
 
 ]
-Overfull \hbox (1.10065pt too wide) has occurred while \output is active
- [][][][]  
- []
-
-[17
-
-]
-<media//xor_graph2.png, id=652, 1405.25pt x 650.43pt>
-File: media//xor_graph2.png Graphic file (type png)
-<use media//xor_graph2.png>
-Package pdftex.def Info: media//xor_graph2.png  used on input line 216.
-(pdftex.def)             Requested size: 355.66444pt x 199.16988pt.
-
-Overfull \hbox (13.36914pt too wide) in paragraph at lines 216--216
-[][]  
- []
-
-
-Overfull \hbox (1.10065pt too wide) has occurred while \output is active
- [][][][]  
- []
-
-[18
-
- <./media//xor_graph2.png>] (./presentation.toc)
-Overfull \hbox (1.10065pt too wide) has occurred while \output is active
- [][][][]  
- []
-
-[19
-
-]
-Overfull \hbox (1.10065pt too wide) has occurred while \output is active
- [][][][]  
- []
-
-[20
-
-]
-Overfull \hbox (1.10065pt too wide) has occurred while \output is active
- [][][][]  
- []
-
 [21
 
 ]
-Overfull \hbox (1.10065pt too wide) has occurred while \output is active
- [][][][]  
- []
+<media//xor_graph1.png, id=759, 834.11626pt x 698.61pt>
+File: media//xor_graph1.png Graphic file (type png)
+<use media//xor_graph1.png>
+Package pdftex.def Info: media//xor_graph1.png  used on input line 146.
+(pdftex.def)             Requested size: 227.6199pt x 170.71855pt.
+ [22
 
-[22
+ <./media//xor_graph1.png>] [23
 
-]
-Overfull \hbox (1.10065pt too wide) has occurred while \output is active
- [][][][]  
- []
+] [24
 
-[23
+] [25
 
-]
-Overfull \hbox (1.10065pt too wide) has occurred while \output is active
- [][][][]  
- []
+] [26
 
-[24
-
-] (./presentation.toc)
-Overfull \hbox (1.10065pt too wide) has occurred while \output is active
- [][][][]  
- []
-
-[25
+] [27
 
 ]
-Overfull \hbox (1.10065pt too wide) has occurred while \output is active
- [][][][]  
- []
+<media//xor_nn.png, id=925, 355.3275pt x 210.7875pt>
+File: media//xor_nn.png Graphic file (type png)
+<use media//xor_nn.png>
+Package pdftex.def Info: media//xor_nn.png  used on input line 172.
+(pdftex.def)             Requested size: 170.71791pt x 113.8139pt.
+ [28
 
-[26
+ <./media//xor_nn.png>] [29
 
-]
-Overfull \hbox (1.10065pt too wide) has occurred while \output is active
- [][][][]  
- []
+] [30
 
-[27
+] [31
 
-]
-<media//ReLU.png, id=961, 578.16pt x 406.8801pt>
-File: media//ReLU.png Graphic file (type png)
-<use media//ReLU.png>
-Package pdftex.def Info: media//ReLU.png  used on input line 314.
-(pdftex.def)             Requested size: 227.61641pt x 142.26115pt.
+] [32
 
-Overfull \hbox (1.10065pt too wide) has occurred while \output is active
- [][][][]  
- []
+] [33
 
-[28
-
- <./media//ReLU.png>]
-<media//leaky_ReLU.png, id=991, 578.16pt x 406.8801pt>
-File: media//leaky_ReLU.png Graphic file (type png)
-<use media//leaky_ReLU.png>
-Package pdftex.def Info: media//leaky_ReLU.png  used on input line 320.
-(pdftex.def)             Requested size: 227.61641pt x 142.26115pt.
-
-Overfull \hbox (1.10065pt too wide) has occurred while \output is active
- [][][][]  
- []
-
-[29
-
- <./media//leaky_ReLU.png>]
-Overfull \hbox (1.10065pt too wide) has occurred while \output is active
- [][][][]  
- []
-
-[30
+] [34
 
 ]
-<media//sigmoid.png, id=1048, 578.16pt x 433.62pt>
-File: media//sigmoid.png Graphic file (type png)
-<use media//sigmoid.png>
-Package pdftex.def Info: media//sigmoid.png  used on input line 344.
-(pdftex.def)             Requested size: 171.14764pt x 128.36009pt.
-<media//tanh.png, id=1049, 578.16pt x 433.62pt>
-File: media//tanh.png Graphic file (type png)
-<use media//tanh.png>
-Package pdftex.def Info: media//tanh.png  used on input line 344.
-(pdftex.def)             Requested size: 171.14764pt x 128.36009pt.
+<media//xor_graph2.png, id=1118, 1405.25pt x 650.43pt>
+File: media//xor_graph2.png Graphic file (type png)
+<use media//xor_graph2.png>
+Package pdftex.def Info: media//xor_graph2.png  used on input line 233.
+(pdftex.def)             Requested size: 355.66444pt x 199.16988pt.
 
-Overfull \hbox (1.10065pt too wide) has occurred while \output is active
- [][][][]  
- []
-
-[31
-
- <./media//sigmoid.png> <./media//tanh.png>] (./presentation.toc)
-Overfull \hbox (1.10065pt too wide) has occurred while \output is active
- [][][][]  
- []
-
-[32
-
-]
-<media//width_depth.png, id=1124, 471.7625pt x 312.16624pt>
-File: media//width_depth.png Graphic file (type png)
-<use media//width_depth.png>
-Package pdftex.def Info: media//width_depth.png  used on input line 351.
-(pdftex.def)             Requested size: 312.98387pt x 199.17125pt.
-
-Overfull \hbox (1.10065pt too wide) has occurred while \output is active
- [][][][]  
- []
-
-[33
-
- <./media//width_depth.png>]
-Overfull \hbox (1.10065pt too wide) has occurred while \output is active
- [][][][]  
- []
-
-[34
-
-]
-Overfull \hbox (1.10065pt too wide) has occurred while \output is active
- [][][][]  
+Overfull \hbox (13.36914pt too wide) in paragraph at lines 233--233
+[][]  
  []
 
 [35
 
-]
-<media//depth_accuracy.png, id=1207, 807.015pt x 421.575pt>
-File: media//depth_accuracy.png Graphic file (type png)
-<use media//depth_accuracy.png>
-Package pdftex.def Info: media//depth_accuracy.png  used on input line 380.
-(pdftex.def)             Requested size: 312.97368pt x 170.71764pt.
+ <./media//xor_graph2.png>] (./presentation.toc) [36
 
-Overfull \hbox (1.10065pt too wide) has occurred while \output is active
- [][][][]  
- []
+] [37
 
-[36
+] [38
 
- <./media//depth_accuracy.png>] (./presentation.toc)
-Overfull \hbox (1.10065pt too wide) has occurred while \output is active
- [][][][]  
- []
-
-[37
+] [39
 
 ]
-<media//back_prop_graph.png, id=1279, 453.695pt x 360.34625pt>
-File: media//back_prop_graph.png Graphic file (type png)
-<use media//back_prop_graph.png>
-Package pdftex.def Info: media//back_prop_graph.png  used on input line 387.
-(pdftex.def)             Requested size: 341.43344pt x 199.16977pt.
-
-Overfull \hbox (1.10065pt too wide) has occurred while \output is active
- [][][][]  
- []
-
-[38
-
- <./media//back_prop_graph.png>]
-Overfull \hbox (1.10065pt too wide) has occurred while \output is active
- [][][][]  
- []
-
-[39
-
-]
-<media//comp_graph.png, id=1335, 437.635pt x 223.83624pt>
-File: media//comp_graph.png Graphic file (type png)
-<use media//comp_graph.png>
-Package pdftex.def Info: media//comp_graph.png  used on input line 404.
-(pdftex.def)             Requested size: 284.53282pt x 156.49303pt.
-
-Overfull \hbox (1.10065pt too wide) has occurred while \output is active
- [][][][]  
- []
-
 [40
 
- <./media//comp_graph.png>]
-Overfull \hbox (1.10065pt too wide) has occurred while \output is active
- [][][][]  
- []
+] [41
 
-[41
+] [42
 
-]
-Overfull \hbox (1.10065pt too wide) has occurred while \output is active
- [][][][]  
- []
+] [43
 
-[42
+] [44
 
-]
-<media//repeated_sub_exp.png, id=1420, 178.6675pt x 606.265pt>
-File: media//repeated_sub_exp.png Graphic file (type png)
-<use media//repeated_sub_exp.png>
-Package pdftex.def Info: media//repeated_sub_exp.png  used on input line 444.
-(pdftex.def)             Requested size: 99.5842pt x 199.17073pt.
+] [45
 
-Overfull \hbox (1.10065pt too wide) has occurred while \output is active
- [][][][]  
- []
+] [46
 
-[43
+] [47
 
- <./media//repeated_sub_exp.png>] (./presentation.toc)
-Overfull \hbox (1.10065pt too wide) has occurred while \output is active
- [][][][]  
- []
+] (./presentation.toc) [48
 
-[44
+] [49
+
+] [50
 
 ]
-Overfull \hbox (1.10065pt too wide) has occurred while \output is active
- [][][][]  
- []
-
-[45
-
-]
-Overfull \hbox (1.10065pt too wide) has occurred while \output is active
- [][][][]  
- []
-
-[46
-
-]
-Overfull \hbox (1.10065pt too wide) has occurred while \output is active
- [][][][]  
- []
-
-[47
-
-]
-Overfull \hbox (1.10065pt too wide) has occurred while \output is active
- [][][][]  
- []
-
-[48
-
-]
-Overfull \hbox (1.10065pt too wide) has occurred while \output is active
- [][][][]  
- []
-
-[49
-
-]
-Overfull \hbox (1.10065pt too wide) has occurred while \output is active
- [][][][]  
- []
-
-[50
-
-] (./presentation.toc)
-Overfull \hbox (1.10065pt too wide) has occurred while \output is active
- [][][][]  
- []
-
 [51
 
-]
-Overfull \hbox (1.10065pt too wide) has occurred while \output is active
- [][][][]  
- []
-
-[52
+] [52
 
 ]
-Overfull \hbox (1.10065pt too wide) has occurred while \output is active
- [][][][]  
- []
+File: media//single_neuron.png Graphic file (type png)
+<use media//single_neuron.png>
+Package pdftex.def Info: media//single_neuron.png  used on input line 323.
+(pdftex.def)             Requested size: 199.16522pt x 170.71329pt.
+ [53
 
-[53
+]
+<media//ReLU.png, id=1679, 578.16pt x 406.8801pt>
+File: media//ReLU.png Graphic file (type png)
+<use media//ReLU.png>
+Package pdftex.def Info: media//ReLU.png  used on input line 334.
+(pdftex.def)             Requested size: 227.61641pt x 142.26115pt.
+ [54
 
-] (./presentation.bbl)
-Overfull \hbox (1.10065pt too wide) has occurred while \output is active
- [][][][]  
- []
+ <./media//ReLU.png>]
+<media//leaky_ReLU.png, id=1709, 578.16pt x 406.8801pt>
+File: media//leaky_ReLU.png Graphic file (type png)
+<use media//leaky_ReLU.png>
+Package pdftex.def Info: media//leaky_ReLU.png  used on input line 340.
+(pdftex.def)             Requested size: 227.61641pt x 142.26115pt.
+ [55
 
-[54
+ <./media//leaky_ReLU.png>] [56
+
+]
+<media//sigmoid.png, id=1766, 578.16pt x 433.62pt>
+File: media//sigmoid.png Graphic file (type png)
+<use media//sigmoid.png>
+Package pdftex.def Info: media//sigmoid.png  used on input line 364.
+(pdftex.def)             Requested size: 171.14764pt x 128.36009pt.
+<media//tanh.png, id=1767, 578.16pt x 433.62pt>
+File: media//tanh.png Graphic file (type png)
+<use media//tanh.png>
+Package pdftex.def Info: media//tanh.png  used on input line 364.
+(pdftex.def)             Requested size: 171.14764pt x 128.36009pt.
+
+[57
+
+ <./media//sigmoid.png> <./media//tanh.png>] (./presentation.toc) [58
+
+]
+<media//width_depth.png, id=1842, 471.7625pt x 312.16624pt>
+File: media//width_depth.png Graphic file (type png)
+<use media//width_depth.png>
+Package pdftex.def Info: media//width_depth.png  used on input line 371.
+(pdftex.def)             Requested size: 312.98387pt x 199.17125pt.
+
+[59
+
+ <./media//width_depth.png>] [60
+
+] [61
+
+] [62
+
+] [63
+
+] [64
+
+] [65
+
+] [66
+
+]
+<media//depth_accuracy.png, id=2062, 807.015pt x 421.575pt>
+File: media//depth_accuracy.png Graphic file (type png)
+<use media//depth_accuracy.png>
+Package pdftex.def Info: media//depth_accuracy.png  used on input line 405.
+(pdftex.def)             Requested size: 312.97368pt x 170.71764pt.
+ [67
+
+ <./media//depth_accuracy.png>] (./presentation.toc) [68
+
+]
+<media//back_prop_graph.png, id=2134, 453.695pt x 360.34625pt>
+File: media//back_prop_graph.png Graphic file (type png)
+<use media//back_prop_graph.png>
+Package pdftex.def Info: media//back_prop_graph.png  used on input line 412.
+(pdftex.def)             Requested size: 341.43344pt x 199.16977pt.
+ [69
+
+ <./media//back_prop_graph.png>] [70
+
+] [71
+
+] [72
+
+]
+<media//comp_graph.png, id=2247, 437.635pt x 223.83624pt>
+File: media//comp_graph.png Graphic file (type png)
+<use media//comp_graph.png>
+Package pdftex.def Info: media//comp_graph.png  used on input line 432.
+(pdftex.def)             Requested size: 284.53282pt x 156.49303pt.
+ [73
+
+ <./media//comp_graph.png>] [74
+
+] [75
+
+] [76
+
+] [77
+
+]
+[78
+
+] [79
+
+]
+<media//repeated_sub_exp.png, id=2447, 178.6675pt x 606.265pt>
+File: media//repeated_sub_exp.png Graphic file (type png)
+<use media//repeated_sub_exp.png>
+Package pdftex.def Info: media//repeated_sub_exp.png  used on input line 476.
+(pdftex.def)             Requested size: 99.5842pt x 199.17073pt.
+ [80
+
+ <./media//repeated_sub_exp.png>] (./presentation.toc) [81
+
+]
+[82
+
+] [83
+
+] [84
+
+] [85
+
+] [86
+
+] [87
+
+] [88
+
+] [89
+
+] [90
+
+] (./presentation.toc) [91
+
+] [92
+
+]
+[93
+
+] (./presentation.bbl) [94
 
  </usr/share/texlive/texmf-dist/tex/latex/beamer/beamericonarticle.pdf>]
 \tf@nav=\write6
@@ -1536,16 +1373,15 @@ Overfull \hbox (1.10065pt too wide) has occurred while \output is active
 \tf@snm=\write8
 \openout8 = `presentation.snm'.
 
-
-(./presentation.aux)
+ (./presentation.aux)
 Package rerunfilecheck Info: File `presentation.out' has not changed.
-(rerunfilecheck)             Checksum: FE25DAEC177E352358B577623723CC74;2323.
+(rerunfilecheck)             Checksum: 1A1515DE431CBF455EB9754BB2676F65;2323.
  ) 
 Here is how much of TeX's memory you used:
- 27469 strings out of 480247
- 551968 string characters out of 5896152
- 796885 words of memory out of 5000000
- 44718 multiletter control sequences out of 15000+600000
+ 27560 strings out of 480247
+ 552923 string characters out of 5896152
+ 797001 words of memory out of 5000000
+ 44729 multiletter control sequences out of 15000+600000
  478026 words of font info for 59 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  128i,15n,122p,410b,733s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1563,10 +1399,10 @@ sfonts/cm/cmssi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
 sy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pf
 b></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb
 >
-Output written on presentation.pdf (54 pages, 969311 bytes).
+Output written on presentation.pdf (94 pages, 1064308 bytes).
 PDF statistics:
- 1881 PDF objects out of 2073 (max. 8388607)
- 1723 compressed objects within 18 object streams
- 125 named destinations out of 1000 (max. 500000)
+ 3006 PDF objects out of 3580 (max. 8388607)
+ 2798 compressed objects within 28 object streams
+ 205 named destinations out of 1000 (max. 500000)
  318 words of extra memory for PDF output out of 10000 (max. 10000000)
 
